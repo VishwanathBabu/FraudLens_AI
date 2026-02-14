@@ -1,21 +1,96 @@
-# FraudLens AI
+🛡️ FraudLens AI — Neural Credit Card Fraud Detection Dashboard
 
-React-based credit card fraud detection system.
+FraudLens AI is a real-time, AI-driven fraud detection dashboard designed to identify suspicious credit card transactions with high precision. Powered by Gemini 3 Flash, it performs deep neural auditing on transactional data to generate instant risk scores, contextual insights, and human-readable explanations—helping analysts move from detection to decision in seconds.
 
-🛡️ FraudLens AI: Advanced Neural Fraud Detection Dashboard
-FraudLens AI is a high-performance, real-time credit card fraud detection dashboard. It leverages the power of Gemini 3 Flash to perform deep neural auditing of financial transactions, providing instant risk scores and human-readable reasoning for suspicious activities.
+Built for performance and clarity, FraudLens combines explainable AI, geospatial intelligence, and behavioral anomaly detection into a modern, production-ready interface.
+
 🚀 Key Features
-Neural Risk Auditing: Real-time transaction analysis powered by the Gemini API, trained to recognize complex fraud patterns (based on Kartik2112 dataset features).
-Explainable AI (XAI): Doesn't just flag transactions—it provides detailed "Key Signals" explaining the specific logic behind every risk score.
-Geospatial Intelligence: Analyzes the distance and relationship between cardholder location and merchant coordinates.
-Identity Synthesis: Evaluates occupation, age, and demographic metadata to identify behavioral anomalies.
-Interactive Testing: Built-in scenario randomizer to test high-risk vs. low-risk transaction profiles instantly.
-Modern UX: A beautiful, responsive "Glassmorphism" interface built with React, Tailwind CSS, and Lucide Icons.
+🔍 Neural Risk Auditing
+
+Real-time transaction analysis using Gemini’s neural reasoning capabilities to identify complex fraud patterns based on structured transaction signals and dataset-driven features.
+
+🧠 Explainable AI (XAI)
+
+Not just predictions—FraudLens explains why a transaction is risky. Each output includes:
+
+Key behavioral signals
+
+Risk probability score
+
+Severity classification
+
+Decision reasoning in plain language
+
+🌍 Geospatial Intelligence
+
+Evaluates cardholder and merchant location relationships to detect anomalies such as:
+
+Sudden location jumps
+
+Unusual transaction distances
+
+Region-based fraud patterns
+
+🧾 Identity & Behavioral Synthesis
+
+Analyzes metadata such as age, occupation, and transaction history to surface deviations from typical spending behavior.
+
+🎛️ Interactive Testing Environment
+
+Includes a built-in scenario randomizer for simulating:
+
+High-risk transactions
+
+Normal user behavior
+
+Edge cases for model stress testing
+
+🎨 Modern, Analyst-Focused UX
+
+A sleek glassmorphism dashboard designed for clarity and speed:
+
+Dark-mode optimized
+
+Responsive layout
+
+Minimal cognitive load
+
+Real-time feedback loops
+
 🛠️ Tech Stack
-Framework: React 19 (TypeScript)
+
+Frontend: React 19 + TypeScript
+
 AI Engine: Google Gemini 3 Flash
-Styling: Tailwind CSS (Dark Mode optimized)
+
+Styling: Tailwind CSS (Glassmorphism + Dark UI)
+
 Icons: Lucide React
-Deployment: Vite-ready ESM architecture
+
+Architecture: Vite + ESM, performance-optimized
+
 📖 How It Works
-The dashboard takes raw transaction signals—amount, category, merchant location, and cardholder metadata—and passes them to a specialized prompt engineered for the Gemini 3 Flash model. The model acts as an expert financial auditor, returning a structured risk profile including probability scores, severity levels, and specific behavioral reasoning.
+
+FraudLens processes raw transaction signals such as:
+
+Transaction amount & category
+
+Merchant geolocation
+
+Cardholder metadata
+
+Behavioral indicators
+
+These signals are passed into a carefully engineered prompt pipeline for Gemini 3 Flash, which operates as a domain-aware financial auditor.
+
+The model returns a structured fraud intelligence report containing:
+
+Risk probability score
+
+Fraud severity level
+
+Behavioral anomaly indicators
+
+Natural-language reasoning for analysts
+
+This enables fast, explainable, and actionable fraud detection in a single interfac
