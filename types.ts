@@ -53,3 +53,13 @@ export enum TransactionCategory {
   SHOPPING_POS = 'shopping_pos',
   TRAVEL = 'travel'
 }
+
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly VITE_GEMINI_API_KEY: string
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}

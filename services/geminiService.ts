@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { TransactionData, PredictionResult } from "../types";
 
 export const analyzeTransaction = async (data: TransactionData): Promise<PredictionResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
   
   // Preprocessing (extracting temporal features)
   const transDate = new Date(data.trans_date_trans_time);
