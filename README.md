@@ -1,3 +1,6 @@
+DEPLOYED WEBSITE : https://fraud-lens-pbiepsn1q-vishwanathbabu1799-6017s-projects.vercel.app
+
+
 🛡️ FraudLens AI — Neural Credit Card Fraud Detection Dashboard
 
 FraudLens AI is a real-time, AI-driven fraud detection dashboard designed to identify suspicious credit card transactions with high precision. Powered by Gemini 3 Flash, it performs deep neural auditing on transactional data to generate instant risk scores, contextual insights, and human-readable explanations—helping analysts move from detection to decision in seconds.
