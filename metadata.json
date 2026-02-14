@@ -1,0 +1,6 @@
+
+{
+  "name": "FraudLens Dashboard",
+  "description": "A high-performance credit card fraud detection dashboard using Gemini AI to analyze transaction patterns based on the Kartik2112 dataset features.",
+  "requestFramePermissions": []
+}
