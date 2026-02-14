@@ -93,4 +93,47 @@ Behavioral anomaly indicators
 
 Natural-language reasoning for analysts
 
-This enables fast, explainable, and actionable fraud detection in a single interfac
+This enables fast, explainable, and actionable fraud detection in a single interface
+
+
+▶️ Run Locally
+
+Follow these steps to set up and run FraudLens AI on your local machine.
+
+1️⃣ Clone the repository
+git clone https://github.com/your-username/fraudlens-ai.git
+cd fraudlens-ai
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Set up environment variables
+
+Create a .env file in the root directory and add your Gemini API key:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+4️⃣ Start the development server
+npm run dev
+
+5️⃣ Open in browser
+
+Visit:
+
+http://localhost:5173
+
+🧪 Build for Production
+npm run build
+
+
+Preview production build:
+
+npm run preview
+
+⚙️ Requirements
+
+Node.js (v18 or higher recommended)
+
+npm or yarn
+
+Gemini API key
